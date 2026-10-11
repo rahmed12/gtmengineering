@@ -30,6 +30,44 @@
 		<java.version>25</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>link.thingscloud</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>3.1.5</version>
+		</dependency>
+
+		<!-- Source: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jdbc -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+			<version>4.2.0-M2</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+		<!-- Source: https://mvnrepository.com/artifact/org.duckdb/duckdb_jdbc -->
+		<dependency>
+			<groupId>org.duckdb</groupId>
+			<artifactId>duckdb_jdbc</artifactId>
+			<version>1.5.6.0</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- Source: https://mvnrepository.com/artifact/com.stripe/stripe-java -->
+		<dependency>
+			<groupId>com.stripe</groupId>
+			<artifactId>stripe-java</artifactId>
+			<version>34.0.0</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+			<version>3.5.3</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
