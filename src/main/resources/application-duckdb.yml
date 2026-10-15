@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:duckdb:/workspaces/audiobook-ai-docker-image/myProjects/duckdbdata/analytics.duckdb
+    driver-class-name: org.duckdb.DuckDBDriver
+
+  hikari:
+    maximum-pool-size: 1
+
+  sql:
+    init:
+      mode: always
